@@ -1,1 +1,172 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax{
+    position: relative;
+    height: 100%;
+}
+.parallax_mountain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax_mountain1{
+    background: url('images/m_1.png') 0 0 / cover no-repeat;
+    z-index: 0;
+}
+
+    
+
+.parallax_mountain2{
+    z-index: 1;
+    background: url('images/m_2.png') bottom right / 45%   no-repeat;
+
+}
+.parallax_mountain3{
+    z-index: 1;
+    background: url('images/m_3.png') left bottom / 100%   no-repeat;
+}
+.parallax__fog{
+    background: url('images/fog_1.png') bottom / 100%  no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.content{
+    position: relative;
+}
+.content__body{
+    max-width: 1170px;
+    margin: 0px auto;
+}
+.content__header{
+    text-align: center;
+    text-transform: uppercase;
+
+
+    transition: all 2s;
+    opacity: 0;
+    transform: translate(0, 20%);
+    filter: blur(5px);
+   
+}
+.content__header.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1);
+    transform: translate(0, 0%);
+
+    .parallax_mountain1{
+        transition: all 0.8s;
+        background: none;
+        background-color: black;
+    }
+}
+.content__title{
+    position: relative;
+    font-size: 200;
+    color: rgb(82, 31, 31);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+
+  
+   
+    
+}
+.content__subtitle{
+    font-size: 25px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(35, 1, 1);
+
+   
+}
+.title{
+    font-family: Bradley Hand, cursive;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    opacity: 0.8;
+    z-index: 3;
+
+    transition: all 2s;
+    opacity: 0;
+    transform: translate(0, 20%);
+    filter: blur(5px);
+}
+.title.show{
+    opacity: 1;
+    transform: translate(0, 0%);
+    filter: blur(0px);
+
+}
+.div__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+
+
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
+
+.span{
+    font-size: 20px;
+}
+.span_1{
+    color: rgb(137, 40, 40);
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container__2{
+    height: 500px;
+    background-color: black;
+    z-index: 1;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.osd{
+    float: left;
+}
+
+
+
 
