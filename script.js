@@ -9,7 +9,7 @@ $(document).ready(function() {
         let p_b = s/h_b*100;
         let o = 1-1/100*p_b;
 
-
+        let content_bg_opacity = 1/100*p_b
         let z_1=1+(w/10000*p_b)
         $('.parallax__fog').css('transform', 'scale('+z_1+')')
         $('.parallax__fog').css('opacity', o);
@@ -29,6 +29,8 @@ $(document).ready(function() {
         let hr_1=w/1500*p_b;
         let z_4=1+(w/50000*p_b)
         $('.parallax_mountain3').css('transform', 'translate3d('+hr_1+'px,0,0) scale('+z_4+')')
+
+         $('.black-bg').css('opacity', content_bg_opacity);
         
     });
 });
