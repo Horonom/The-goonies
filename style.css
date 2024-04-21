@@ -47,6 +47,13 @@ html,body{
     z-index: 1;
     background: url('images/m_3.png') left bottom / 100%   no-repeat;
 }
+.black-bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+   
+}
 .parallax__fog{
     background: url('images/fog_1.png') bottom / 100%  no-repeat;
     position: fixed;
