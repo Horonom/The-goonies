@@ -243,6 +243,12 @@ html,body{
    flex-direction: column;
    height: 500px;
 }
+.artefacts___img{
+    float: left;
+    
+
+}
+
 .artefacts__img{
     float: left;
     
@@ -251,6 +257,10 @@ html,body{
 .artefacts_img{
     float: right;
 }
+.artefactsimg{
+    float: right;
+}
+
 #artefact__id{
     position: absolute;
     top: 10%;
@@ -726,6 +736,17 @@ html,body{
 .close_map:hover{
     opacity: 1;
 }
+.artefacts_text{
+    position: relative;
+    left: 38%;
+    z-index: 15;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 
 
