@@ -47,13 +47,6 @@ html,body{
     z-index: 1;
     background: url('images/m_3.png') left bottom / 100%   no-repeat;
 }
-.black-bg{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-   
-}
 .parallax__fog{
     background: url('images/fog_1.png') bottom / 100%  no-repeat;
     position: fixed;
@@ -62,6 +55,14 @@ html,body{
     top: 0;
     left: 0;
     z-index: 2;
+}
+.black_bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+   
 }
 .content{
     position: relative;
@@ -159,20 +160,573 @@ html,body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container__2{
+    position: relative;
+    top: 200px;
     height: 500px;
-    background-color: black;
-    z-index: 1;
+    z-index: 3;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
 }
 .display{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
     z-index: 1;
+    
+}
+.flex{
+    transition: all 0.8s linear 0s;
+    filter: brightness(40%); 
+}
+
+.flex:hover {
+    filter: brightness(100%); 
 }
 .osd{
-    float: left;
+    position: relative;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 200%;
 }
+.more_info a{
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+
+  
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+   
+}
+.a_header{
+    position: relative;
+    margin: 75px;
+    font-size: large;
+    color:brown;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+
+.navigation{
+    
+    display: flex;
+    justify-content: center;
+    
+   
+}  
+.jqury__animation{
+    position: relative;
+    top: 2000px;
+    height: 500px;
+    z-index: 7;
+}
+.animation_part{
+    position: absolute;
+    right: 50%;
+    transform: rotate(50deg);
+
+}
+
+
+
+.all__artefacts{
+    display: flex;
+   flex-direction: column;
+   height: 500px;
+}
+.artefacts__img{
+    float: left;
+    
+
+}
+.artefacts_img{
+    float: right;
+}
+#artefact__id{
+    position: absolute;
+    top: 10%;
+    left: 900px;
+}
+#artefact_id{
+    position: absolute;
+    top: 50%;
+    
+}
+.all__about__film{
+    position: relative;
+    font-family: Arial, 'Helvetica Neue';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    z-index: 8;
+    top: 2000px;
+    color: white;
+}
+.first_row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+.production_date_story_by{
+    border: 1px solid grey;
+    width: 300px;
+    height: 300px;
+
+    transition: all 0.8s linear 0s;
+    filter: brightness(40%); 
+    z-index: 3;
+}
+#biggest{
+    width: 865px;
+}
+.center_object{
+    position: relative;
+    top: 35%;
+    font-weight: 800;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    
+}
+.text_for_div{
+    font-family: Sharpgroteskbook25, sans-serif;
+    position: relative;
+    top: 45%;
+    margin: 35px;
+    font-size: 25px;
+}
+#margin-left{
+    margin: 35px;
+}
+#img_steven{
+    background: url('images/OIP\ \(24\).jpg') 0 0 / cover no-repeat;
+    
+}
+
+
+    
+
+
+.production_date_story_by:hover {
+    filter: brightness(100%); 
+    
+}
+.img_production{
+    background: url('images/images__2_-removebg-preview.png')0 0 / cover no-repeat;
+    background-size: 400px 400px;
+}
+.second_row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+.distributed_budget_music_box_office{
+    border: 1px solid grey;
+    width: 100%;
+    height: 300px;
+
+    transition: all 0.8s linear 0s;
+    filter: brightness(40%); 
+    z-index: 3;
+}
+.distributed_budget_music_box_office:hover {
+    filter: brightness(100%); 
+    
+}
+.center__object{
+    position: relative;
+    top: 35%;
+    font-weight: 800;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+.img_distribuded{
+    background: url('images/OIP__25_-removebg-preview.png')0 0 / cover no-repeat;
+    background-size: 350px 300px;
+   
+}
+.center___object{
+    position: relative;
+    top: 35%;
+    font-weight: 800;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+.img_music{
+    background: url('images/images\ \(3\).jpg')0 0 / cover no-repeat;
+    background-size: 350px 300px;
+}
+#margin-left-top{
+    position: relative;
+    bottom: 15px;
+    margin-left: 35px;
+   
+}
+#text_bottom{
+    position: relative;
+    top: 220px;
+}
+.parallax__block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    z-index: 8;
+    top: 2000px;
+    
+    
+}
+.img__parallax{
+    display: flex;
+    justify-content: center;
+}
+.img_parallax{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.gallary{
+    position: relative;
+    font-family: Arial, 'Helvetica Neue';
+    display: flex;
+    width: 100%;
+    height: 800px;
+    z-index: 8;
+    top: 2000px;
+    color: white;
+}
+.borders{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 100%;
+    border: 1px solid grey;
+
+}
+.images_for_gallary{
+    z-index: 10;
+}
+.img_for_gallary{
+    width: 100px;
+    height: 100px;
+}
+.h1_gallary{
+    color: white;
+    font-size: 100px;
+
+    transition: all 0.5s ease-out 0s;
+}
+.div_h1_gallary{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 11;
+    
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 25px;
+    
+    transition: all 0.2s linear 0s;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#image_position_center{
+    position: relative;
+    top: 50%;
+    width: 250px;
+    height: auto;
+
+    transition: all 0.5s linear 0s;
+}
+#img_near_to_chunk{
+    position: relative;
+    top: 40%;
+    right: 10%;
+    width: 300px;
+   height: 200px;
+
+    transition: all 0.5s linear 0s;
+}
+#top_img{
+    position: relative;
+    width: 150px;
+    transition: all 0.5s linear 0s;
+}
+#gallary_mountain{
+    position: relative;
+    top: 40%;
+    right: 10%;
+    width: 300px;
+   height: 200px;
+
+    transition: all 0.5s linear 0s;
+}
+#scared_goonies{
+    position: relative;
+   
+    width: 100px;
+   height: 100px;
+
+    transition: all 0.5s linear 0s;
+
+}
+#last_img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s linear 0s;
+}
+.x{
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 15;
+    display: none;
+    
+    transition: all 0.2s linear 0s;
+}
+.div__footer{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    z-index: 16;
+    color: aliceblue;
+    font-family: Sharpgroteskbook25, sans-serif;
+
+}
+.footer{
+    position: relative;
+    top: 2000px;
+    z-index: 16;
+    color: aliceblue;
+    font-family: Sharpgroteskbook25, sans-serif;
+
+}
+.reference{
+    font-size: 35px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.btn_back_to_top{
+    background-color: black;   
+    color: white;   
+    font-weight: 400;
+    
+
+}
+.created{
+    position: absolute;
+    right: 38%;
+}
+.border_line{
+    position: relative;
+    left: 50%;
+    top: 100px;
+    border-left: 2px solid white;
+    width: 100px;
+    height: 50px;
+}
+.skull{
+    position: fixed;
+    top: 90%;
+    left: 5%;
+    width: 25px;
+    height: 25px;
+    z-index: 999;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+}
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+  }
+}
+.map_bg{
+    width: 0;
+   
+    
+    height: 100%;
+    background: url('images/1639328892_2-abrakadabra-fun-p-bezhevii-teksturnii-fon-2.jpg') 0 0 / cover no-repeat;
+     transition: all 0.8s linear 0s;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    
+}
+.circle{
+    position: relative;
+    bottom: 47%;
+    left: 50%;
+    background-color:  #d86464fa;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 1px #ff80801a;
+
+    transition: all 1.5s ease-in 0s;
+
+    
+
+}
+.circle_1{
+    position: relative;
+    bottom: 67%;
+    left: 365px;
+    background-color:  #d86464fa;
+    z-index: 2;
+    width: 15px;
+    display: none;
+    height: 15px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 1px #ff80801a;
+}
+.circle_2{
+    position: relative;
+    bottom: 67%;
+    left: 1100px;
+    background-color:  #d86464fa;
+    z-index: 2;
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 1px #ff80801a;
+}
+.pulses {
+    animation: pulses 2s infinite;
+  }
+  
+  @keyframes pulses {
+    0% {
+      box-shadow: 0 0 0 0px rgb(45, 17, 17);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 154, 154, 0.215);
+    }
+  }
+
+.modal_window{
+    position: relative;
+    left: 53%;
+    bottom: 80%;
+    width: 0px;
+    opacity: 0;
+    height: 100px;
+    background-color: black;
+    color: rgb(165, 135, 43);
+    font-family: Sharpgroteskbook25, sans-serif;
+    font-weight: 800;
+
+    transition: all 0.8s ease-in 0s;
+}
+.modal_window_1{
+    position: relative;
+    left: 365px;
+    bottom: 67%;
+    width: 0px;
+    opacity: 0;
+    height: 100px;
+    background-color: black;
+    color: rgb(165, 135, 43);
+    font-family: Sharpgroteskbook25, sans-serif;
+    font-weight: 800;
+
+    transition: all 0.8s ease-in 0s;
+}
+.modal_window_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80%;
+    left: 1100px;
+    width: 0px;
+    opacity: 0;
+    height: 100px;
+    background-color: black;
+    color: rgb(165, 135, 43);
+    font-family: Sharpgroteskbook25, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+
+    transition: all 0.8s ease-in 0s;
+}
+
+#map{
+    display: none;
+}
+#myVideo{
+    display: none;
+    height: 100%;
+}
+.close_map{
+    position: fixed;
+    bottom: 60%;
+    left: 80%;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100%;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    transition: all 0.8s linear 0s;
+}
+.close_map:hover{
+    opacity: 1;
+}
+
 
 
 
