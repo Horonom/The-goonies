@@ -18,7 +18,11 @@ $(document).ready(function() {
 
         let translate = p_b / -3;
 
+        let translate_for_artefact = p_b / 1;
+
         let translate_for_artefacts = p_b / -1;
+
+        let translate_for_text = p / -3;
  
         
 
@@ -32,9 +36,16 @@ $(document).ready(function() {
 
         $('.border_line').css('height', height + 'px');
 
-
-
+        $('.artefacts__img').css('transform', 'translateY('+translate_for_artefacts+'px)');
         
+        $('.artefacts_img').css('transform', 'translateY('+translate_for_artefact+'px)');
+
+        $('.artefactsimg').css('transform', 'translateY('+translate_for_artefacts+'px)');
+        
+        $('.artefacts___img').css('transform', 'translateY('+translate_for_artefact+'px)');
+        
+        
+        $('.artefacts_text').css('transform', 'translateY('+translate_for_text+'px)');
 
       
         
